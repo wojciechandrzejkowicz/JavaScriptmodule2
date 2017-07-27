@@ -10,8 +10,6 @@ if (arr.indexOf(newName) > -1) {
     console.log('imie w tablicy');
 } else {
     console.log('brak imienia');
+    var x = arr.push(newName);
 }
-
-var x = arr.push(newName);
-
 console.log(x);
