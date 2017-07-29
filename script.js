@@ -5,5 +5,5 @@ add.addEventListener('click', function() {
     var itemsByTagName = document.getElementsByTagName('li');
     element.innerHTML = 'item' + ' ' + itemsByTagName.length++;
     list.appendChild(element);
-    console.log(list)
+    console.log(list);
 });
